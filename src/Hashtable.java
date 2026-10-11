@@ -13,7 +13,7 @@ public class Hashtable {
     private Entry[] buckets;
     private int size = 0;
 
-    public HashTable() {
+    public Hashtable() {
         buckets = new Entry[16];
     }
     private int indexOf(int key, int length) {
